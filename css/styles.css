@@ -1,0 +1,162 @@
+
+
+body{
+    font-family: 'montserrat' ;
+}
+#title{
+    background: salmon;
+    padding: 3% 10% 12% ;
+   
+}
+
+.navbar-brand{
+    font-family: 'ubuntu';
+    font-weight: bolder;
+    color: #fff;
+    font-size: 2rem ;
+}
+.nav-link{
+    color:#fff;
+}
+.navbar{
+    padding: 0 0 4rem;
+}
+.form-control{
+    background: transparent;
+}
+h1{
+    font-size: 2.5rem;
+    color:#fff;
+    font-family: 'montserrat';
+    font-weight: bolder;
+    line-height: 1.5;
+    margin: 1.5rem auto;
+}
+.download-buttons{
+    margin-top: 2rem;
+}
+.download{
+    margin: 1rem;
+}
+.iphone{
+    top: 25%;
+    right: 20%;
+    position: absolute;
+    transform: rotate(25deg);
+    width: 20%;
+}
+
+
+/* features */
+
+#features{
+    padding: 5% 10%;  
+    background: #fff;
+     position: relative; 
+ 
+}
+h3{
+    font-weight: bolder;
+
+}
+
+.feature-box{
+    text-align: center;
+    padding:3%;
+}
+.icon{
+    padding: 0.7rem;
+    color: salmon;
+}
+.icon:hover{
+    color:#8f8f8f
+}
+
+@media (max-width: 990px){                      /*position of this code comes after the iphone class*/
+    .iphone{
+        position:static;
+        transform: rotate(0);
+        width: 30%;
+    }
+    .container-fluid{
+        text-align: center;
+    }
+} 
+
+
+/* testimonials */
+
+
+#testimonials{
+    padding: 5% 10%;        
+    background: salmon;
+    text-align: center;
+    color:#fff;
+}
+h2{
+    font-weight: bolder;
+}
+.pebbles{
+    width:20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.testimonial-image{
+width:20%;
+    border-radius: 100%;
+    margin: 20px;
+}    
+
+#press{
+    background: salmon;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.press-logo{
+    width: 15%;
+    padding: 1.5rem 1rem;
+}
+
+/* pricing */
+
+#pricing{
+    padding: 5% 10%;   
+    text-align: center;
+}
+.card{
+    margin: 1rem;
+}
+.card-header{
+    color:#fff;
+    background: salmon;
+}
+.card-header:hover{
+    background: #8f8f8f;
+}
+
+/* CTA */
+#cta{
+    text-align: center;
+     background: salmon;
+     padding: 5% 10%;  
+     color: #fff;
+}
+.cta-text{
+    padding: 5%   auto;
+}
+/* footer */
+
+#footer{
+    padding: 5% 10%;     
+    text-align: center;
+}
+.copyright{
+    font-weight:bolder;
+}
+.footfav{
+    color: black;
+    padding: 1rem;
+}
+.footfav:hover{
+    background:salmon;
+}
